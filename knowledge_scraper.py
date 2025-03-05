@@ -25,7 +25,7 @@ def scrape_website(url, retries=3, delay=5):
 def update_knowledge_base():
     urls = [
         "https://arxiv.org/list/cs.AI/recent",
-        "https://blog.openai.com",  # Might be outdated, replace if necessary
+        "https://www.browse.ai/docs/api/v2#tag/robots/operation/getRobots",  # Might be outdated, replace if necessary
         "https://www.deeplearning.ai/the-batch/"
     ]
 
