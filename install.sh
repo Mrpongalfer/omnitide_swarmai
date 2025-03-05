@@ -141,6 +141,17 @@ if __name__ == "__main__":
         mr_meeseeks_task(" ".join(sys.argv[1:]))
 EOF
 
+
+
+# Enable AI system service
+sudo systemctl daemon-reload
+sudo systemctl enable omnitide_swarmai
+sudo systemctl start omnitide_swarmai
+
+# Start the web UI and AI core services
+nohup python3 $BASE_DIR/ui.py &
+nohup python3 $BASE_DIR/services/core_team.py &
+
 # Start the system
 echo "🚀 Launching OmniTide SwarmAI..."
 nohup python3 $BASE_DIR/services/ai_ui.py &
