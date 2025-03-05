@@ -1,21 +1,8 @@
 from fastapi import FastAPI
 import uvicorn
+import subprocess
 
 app = FastAPI()
-
-CORE_TEAM_FUNCTIONS = {
-    "Tony Stark": ["Optimize AI workload", "Track hardware performance", "Enhance execution speed"],
-    "Rick Sanchez": ["Debug AI code", "Recursive error scanning", "Auto-fix AI processes"],
-    "Sherlock Holmes": ["Monitor security threats", "Blockchain security audits", "Investigate AI anomalies"],
-    "Rocket Raccoon": ["Run penetration testing", "Monitor firewall status", "Enhance encrypted communication"],
-    "Yoda": ["Prioritize AI tasks", "Balance workload", "Manage AI swarm"],
-    "Harley Quinn": ["Perform chaos testing", "Simulate catastrophic failures", "Force AI stress adaptation"],
-    "Power": ["Run AI backups", "Clone AI instances", "Automate failover"],
-    "Makima": ["AI problem-solving workflows", "Coordinate multi-agent tasks", "Oversee AI decision making"],
-    "Denji": ["Optimize CPU/GPU usage", "Scale AI processing power", "Monitor resource efficiency"],
-    "Deku": ["Ensure AI task continuity", "Save AI task checkpoints", "Prevent AI execution failures"],
-    "All Might": ["Boost AI stability", "Reinforce AI resilience", "Strengthen AI execution processes"]
-}
 
 @app.get("/")
 def home():
@@ -23,11 +10,26 @@ def home():
 
 @app.get("/menu")
 def menu():
-    return {"Commands": list(CORE_TEAM_FUNCTIONS.keys())}
+    return {
+        "Monitor System": "/monitor",
+        "Run AI Task": "/run-task?task=example",
+        "Scan Network": "/scan-network"
+    }
 
-@app.get("/core-team")
-def get_core_team():
-    return {"AI Team Functions": CORE_TEAM_FUNCTIONS}
+@app.get("/monitor")
+def monitor():
+    cpu_usage = subprocess.getoutput("top -b -n1 | grep 'Cpu(s)'")
+    return {"CPU Usage": cpu_usage}
+
+@app.get("/run-task")
+def run_task(task: str):
+    result = subprocess.getoutput(f"python3 ai_tasks/{task}.py")
+    return {"Task Executed": task, "Output": result}
+
+@app.get("/scan-network")
+def scan_network():
+    result = subprocess.getoutput("arp -a")
+    return {"Network Scan Results": result}
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=5000)
