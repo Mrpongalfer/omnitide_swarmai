@@ -31,10 +31,8 @@ else
     cd $BASE_DIR && git pull origin main
 fi
 
-# Configure firewall
-sudo ufw allow 22/tcp
-sudo ufw allow 5000/tcp
-sudo ufw enable
+# Run auto-population script
+python3 $BASE_DIR/auto_populate.py
 
 # Enable AI system service
 sudo systemctl daemon-reload
