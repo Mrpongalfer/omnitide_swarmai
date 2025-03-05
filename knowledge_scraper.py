@@ -1,26 +1,31 @@
 import os
 import requests
 import json
+import time
 from bs4 import BeautifulSoup
 from transformers import pipeline
 
-# AI model for processing web content
 summarizer = pipeline("summarization")
 
-def scrape_website(url):
-    """Scrapes web content and extracts key information."""
-    response = requests.get(url)
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.text, 'html.parser')
-        text = ' '.join([p.text for p in soup.find_all('p')])
-        return summarizer(text, max_length=150, min_length=30, do_sample=False)
+def scrape_website(url, retries=3, delay=5):
+    """Attempt to scrape a website, retrying if needed."""
+    for attempt in range(retries):
+        try:
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, 'html.parser')
+            text = ' '.join([p.text for p in soup.find_all('p')])
+            return summarizer(text, max_length=150, min_length=30, do_sample=False)
+        except requests.exceptions.RequestException as e:
+            print(f"⚠️  Attempt {attempt+1} failed: {e}")
+            time.sleep(delay)
+    print(f"❌ Failed to retrieve {url} after {retries} attempts.")
     return None
 
 def update_knowledge_base():
-    """Fetches knowledge from key AI sources and updates the AI system."""
     urls = [
         "https://arxiv.org/list/cs.AI/recent",
-        "https://blog.openai.com",
+        "https://blog.openai.com",  # Might be outdated, replace if necessary
         "https://www.deeplearning.ai/the-batch/"
     ]
 
