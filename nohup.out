@@ -1,0 +1,173 @@
+python3: can't open file '/home/pong/omnitide_swarmai/services/core_team.py': [Errno 2] No such file or directory
+INFO:     Started server process [105586]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:35334 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35350 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45308 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45312 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34122 - "GET /core-team HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34134 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58640 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58652 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37052 - "GET /core-team HTTP/1.1" 200 OK
+INFO:     Started server process [132700]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 5000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Started server process [134157]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 5000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     127.0.0.1:32794 - "GET /menu HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:32808 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     Started server process [135313]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 5000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     127.0.0.1:44010 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44018 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37636 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37652 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60720 - "GET /menu HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60724 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49268 - "GET /core-team HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49272 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44586 - "GET /menu HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44592 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55954 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55970 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55500 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55508 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60436 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60446 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57722 - "GET /core-team HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57732 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34116 - "GET /cmenu HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34132 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41146 - "GET /menu HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41160 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44508 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44512 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45344 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43598 - "GET /menu HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43602 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     Started server process [177898]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 5000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     127.0.0.1:41770 - "GET /menu HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41774 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36162 - "GET /core-team HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36170 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48948 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48958 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60730 - "GET /update HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60732 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60730 - "GET /manu HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60732 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35180 - "GET /menu HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35184 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35180 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35184 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     Started server process [181452]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 5000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+python3: can't open file '/home/pong/omnitide_swarmai/services/core_team.py': [Errno 2] No such file or directory
+INFO:     Started server process [183517]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 5000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     127.0.0.1:52926 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52932 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48212 - "GET /menu HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48228 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57510 - "GET /core-team HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41944 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41952 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     Started server process [184743]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 5000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     127.0.0.1:44036 - "GET /menu HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44052 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     Started server process [187724]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 5000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Started server process [188527]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 5000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     127.0.0.1:53544 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53548 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53562 - "GET /menu HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53572 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47846 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47848 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47046 - "GET /core-team HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47048 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51068 - "GET /menu HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51078 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     Started server process [190189]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 5000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     127.0.0.1:59334 - "GET /menu HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59344 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58950 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58964 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41198 - "GET /core-team HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41212 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+python3: can't open file '/home/pong/omnitide_swarmai/websocket_server.py': [Errno 2] No such file or directory
+python3: can't open file '/home/pong/omnitide_swarmai/websocket_server.py': [Errno 2] No such file or directory
+python3: can't open file '/home/pong/omnitide_swarmai/core_team.py': [Errno 2] No such file or directory
+INFO:     Started server process [191326]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 5000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+python3: can't open file '/home/pong/omnitide_swarmai/websocket_server.py': [Errno 2] No such file or directory
+python3: can't open file '/home/pong/omnitide_swarmai/core_team.py': [Errno 2] No such file or directory
+INFO:     Started server process [192210]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 5000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+python3: can't open file '/home/pong/omnitide_swarmai/websocket_server.py': [Errno 2] No such file or directory
+python3: can't open file '/home/pong/omnitide_swarmai/core_team.py': [Errno 2] No such file or directory
+INFO:     Started server process [193008]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 5000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+ * Serving Flask app 'ui'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.

@@ -1,0 +1,9 @@
+{
+    "IP_Info": {
+        "local_ip": "192.168.1.11",
+        "external_ip": "68.97.113.12"
+    },
+    "Devices": {
+        "network_scan": "? (169.254.169.254) at <incomplete> on enp5s0f1\n_gateway (192.168.1.1) at 00:1b:2f:b5:29:00 [ether] on enp5s0f1"
+    }
+}
